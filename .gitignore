@@ -13,7 +13,6 @@
 /out/
 
 # production
-/docs
 
 # misc
 .DS_Store
