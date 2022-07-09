@@ -1,6 +1,7 @@
 import { Row, Col, Button, Container } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 import style from './card.module.css'
+import { prefix } from '../prefix'
 
 export default function Cardbox(props) {
     return (
@@ -8,7 +9,7 @@ export default function Cardbox(props) {
             <Card.Img
                 className={style.image}
                 variant="top"
-                src={`/${props.image}`}
+                src={`${prefix}/${props.image}`}
             />
             <Card.Body>
                 <Card.Title> {props.title}</Card.Title>
