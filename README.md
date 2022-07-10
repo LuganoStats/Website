@@ -1,7 +1,7 @@
 ## Main website
 
 This repositiy is build and deployed at
-[luganostats.com](luganostats.com)
+[www.luganostats.com](www.luganostats.com)
 
 ### Development
 
