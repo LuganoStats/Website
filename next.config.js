@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     reactStrictMode: true,
-    assetPrefix: isProd ? '/Website/' : '',
+    assetPrefix: isProd ? '' : '',
 }
 
 module.exports = nextConfig

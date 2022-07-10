@@ -1,1 +1,1 @@
-export const isProd = process.env.NODE_ENV === 'production' ? '/Website' : ''
+export const isProd = process.env.NODE_ENV === 'production' ? '' : ''
